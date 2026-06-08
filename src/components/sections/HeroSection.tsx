@@ -274,6 +274,30 @@ export default function HeroSection() {
                 </div>
               ))}
             </motion.div>
+
+            <motion.div
+              {...fadeUp(0.55)}
+              className="mt-8 md:hidden glass-card p-4 bg-[#0E0E0E]/90 border border-white/10 rounded-3xl"
+              style={{ boxShadow: "0 0 30px rgba(0,0,0,0.18)" }}
+            >
+              <div className="mb-3">
+                <div className="text-xs text-[#A0A0A0] uppercase tracking-[0.3em]" style={{ fontFamily: "var(--font-space-mono)" }}>
+                  How to run first ad
+                </div>
+                <div className="text-white font-semibold text-sm mt-1" style={{ fontFamily: "var(--font-syne)" }}>
+                  Watch the quick TikTok Ads setup walkthrough
+                </div>
+              </div>
+              <div className="relative overflow-hidden rounded-3xl border border-white/10" style={{ paddingTop: "56.25%" }}>
+                <iframe
+                  className="absolute inset-0 w-full h-full"
+                  src="https://www.youtube.com/embed/5fnz6l_jytA"
+                  title="How to run first ad"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            </motion.div>
           </div>
 
           {/* Right — Dashboard visual */}
