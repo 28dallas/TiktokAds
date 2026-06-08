@@ -110,6 +110,38 @@ function DashboardMock() {
         </div>
       </motion.div>
 
+      {/* How-to video section */}
+      <motion.div
+        initial={{ opacity: 0, y: 25 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.7, delay: 1.1 }}
+        className="mt-6 glass-card p-4 bg-[#0E0E0E]/90 border border-white/10 rounded-3xl"
+        style={{ boxShadow: "0 0 50px rgba(0,0,0,0.25)" }}
+      >
+        <div className="flex items-center justify-between mb-3">
+          <div>
+            <div className="text-xs text-[#A0A0A0] uppercase tracking-[0.3em]" style={{ fontFamily: "var(--font-space-mono)" }}>
+              How to run first ad
+            </div>
+            <div className="text-white font-semibold text-sm mt-1" style={{ fontFamily: "var(--font-syne)" }}>
+              Watch the quick TikTok Ads setup walkthrough
+            </div>
+          </div>
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#111111] border border-white/10 text-xs text-[#69C9D0]">
+            ▶ YouTube
+          </div>
+        </div>
+        <div className="relative overflow-hidden rounded-3xl border border-white/10" style={{ paddingTop: "56.25%" }}>
+          <iframe
+            className="absolute inset-0 w-full h-full"
+            src="https://www.youtube.com/embed/5fnz6l_jytA"
+            title="How to run first ad"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
+      </motion.div>
+
       {/* Floating notification popups */}
       <motion.div
         initial={{ opacity: 0, x: 30 }}
