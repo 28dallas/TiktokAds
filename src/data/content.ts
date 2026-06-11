@@ -5,6 +5,7 @@
 
 export const AFFILIATE_URL =
   "https://getstartedtiktok.pxf.io/c/7260966/1359578/16372";
+export const EXOBOOSTER_URL = "https://www.exobooster.site/?ref=EXO-12e0Qz";
 export const WHATSAPP_NUMBER = "254701646264";
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
 export const WHATSAPP_AUDIT_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=I%20want%20my%20free%20TikTok%20Ads%20audit`;
